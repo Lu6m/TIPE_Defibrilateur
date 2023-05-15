@@ -8,7 +8,12 @@ Nous avons travaillé sur le fonctionnement du DAE, sur la partie récupération
 création de l’ECG, et analyse de celui-ci.
 
 Compte tenu du manque d’informations que nous avons pu trouver sur ce sujet, nous avons analysé les
-composants en ouvrant les DAE prêtés par l’entreprise Défibril *(diapo 8)*, puis nous avons décidé de faire une
+composants en ouvrant les DAE prêtés par l’entreprise Défibril 
+![photoVSC](https://github.com/Lu6m/TIPE_Defibrillateur/blob/main/imagesReadme/défibrillateur_ouvert.png?raw=true)
+
+
+
+*(diapo 8)*, puis nous avons décidé de faire une
 modélisation du DAE.
 
 Pour cela nous avons commencé par récupérer un signal bruité provenant du cœur simplement à partir des
