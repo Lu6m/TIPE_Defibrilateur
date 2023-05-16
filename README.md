@@ -17,8 +17,8 @@ Nous avons ensuite filtré numériquement ce signal pour pouvoir l’exploiter *
 rapprocher le plus possible d’un modèle classique d’électrocardiogramme *(comme illustré diapo 18)*.
 
 <p align="center">
-<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/PDRSTU.png" width="300">
-<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/filtrage_oscillo.png" width="300">
+<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/PDRSTU.png" height="200">
+<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/filtrage_oscillo.png" height="200">
 </p>
 
 
