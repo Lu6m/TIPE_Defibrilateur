@@ -1,6 +1,34 @@
-# Compte Rendu de Projet-TIPE de BATIER Amandine et MOREAU Lucie
+# TIPE project by Amandine BATIER and Lucie MOREAU - 2021/2022
+## English
 
-Le projet du DAE est rentré dans le thème Santé Prévention de cette année 2021-2022, pour les TIPE (Travail d’Initiative Personnelle Encadré) en CPGE. Le principe du TIPE est de mettre les étudiants en situation de responsabilité ou de recherche, pour les initier aux démarches scientifiques et leur donner un avant-gout de leur futur métier d’ingénieur ou de chercheur. Le sujet est alors libre de choix, tant qu’il reste dans le thème imposé. Nous avons travaillé sur le fonctionnement du DAE, sur la partie récupération des données de la victime, création de l’ECG, et analyse de celui-ci.
+The automatic external defibrillator (AED) project is part of the 2021-2022 Health Prevention theme, for the TIPE (Travail d'Initiative Personnelle Encadré or Supervised Personal Initiative Work) mandatory in french preparatory classes (CPGE). The purpose of the TIPE is to put students in a situation of responsibility or research, to introduce them to scientific approaches and give them a foretaste of their future profession as engineers or researchers. The subject is then free to choose, as long as it remains within the imposed theme. We worked on the functioning of the AED, the recovery of data from the victim, the creation of the ECG and its analysis.
+
+Given the lack of information we were able to find on this subject, we started off by analyzing the components from the loaned AEDs provided by the Défibril company, and then decided to model this same AED.
+
+<p align="center">
+<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/d%C3%A9fibrillateur_ouvert.png" width="300">
+</p>
+
+To do this, we began by recovering a noisy signal from the heart by connecting the AED's electrodes to one of our school's oscilloscopes *(slides 19 and 21 of our presentation)*.
+<p align="center">
+<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/image_oscillo.png" width="300">
+</p>
+
+We then digitally filtered this signal for further processing *(slide 28)*: the filters applied were selected to have resulting signals closely resembling a classic electrocardiogram *(as illustrated on slide 18)*.
+
+<p align="center">
+<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/PDRSTU.png" height="200">
+<img src="https://github.com/Lu6m/TIPE_Defibrilateur/blob/main/imagesReadme/filtrage_oscillo.png" height="200">
+</p>
+
+Following this, we created a fairly simple python code to analyze the properties of each ECG (number of beats per minute, size of QRS complex...) and determine each time whether the signal was to be shocked or not *(slide 32 to 38)*. We then implemented this python code in a Matlab Simulink model, which follows the principle of the AED state diagram *(slide 12)*. The model takes into account the conditions of passage from one stage to the next by, among other things, calculating the victim's impedance *(slide 15)*. Our model's console then allows us to check that the actions take place one after the other and in the intended scenarios *(slide 42)*.
+
+With more time and knowledge, further work regarding the impedance and its use in the case of a AED could have been pursued.
+
+
+## Français
+
+Le projet du DAE est rentré dans le thème Santé Prévention de l'année 2021-2022, pour les TIPE (Travail d’Initiative Personnelle Encadré) en classe prépa CPGE. Le principe du TIPE est de mettre les étudiants en situation de responsabilité ou de recherche, pour les initier aux démarches scientifiques et leur donner un avant-gout de leur futur métier d’ingénieur ou de chercheur. Le sujet est alors libre de choix, tant qu’il reste dans le thème imposé. Nous avons travaillé sur le fonctionnement du DAE, sur la partie récupération des données de la victime, création de l’ECG, et analyse de celui-ci.
 
 Compte tenu du manque d’informations que nous avons pu trouver sur ce sujet, nous avons analysé les composants en ouvrant les DAE prêtés par l’entreprise Défibril puis nous avons décidé de faire une modélisation de ce même DAE.
 
