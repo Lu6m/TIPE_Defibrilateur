@@ -28,7 +28,7 @@ With more time and knowledge, further work regarding the impedance and its use i
 
 ## Français
 
-Le projet du DAE est rentré dans le thème Santé Prévention de l'année 2021-2022, pour les TIPE (Travail d’Initiative Personnelle Encadré) en classe prépa CPGE. Le principe du TIPE est de mettre les étudiants en situation de responsabilité ou de recherche, pour les initier aux démarches scientifiques et leur donner un avant-gout de leur futur métier d’ingénieur ou de chercheur. Le sujet est alors libre de choix, tant qu’il reste dans le thème imposé. Nous avons travaillé sur le fonctionnement du DAE, sur la partie récupération des données de la victime, création de l’ECG, et analyse de celui-ci.
+Le projet du Défibrillateur Automatique Externe (DAE) est rentré dans le thème Santé Prévention de l'année 2021-2022, pour les TIPE (Travail d’Initiative Personnelle Encadré) en classe prépa CPGE. Le principe du TIPE est de mettre les étudiants en situation de responsabilité ou de recherche, pour les initier aux démarches scientifiques et leur donner un avant-gout de leur futur métier d’ingénieur ou de chercheur. Le sujet est alors libre de choix, tant qu’il reste dans le thème imposé. Nous avons travaillé sur le fonctionnement du DAE, sur la partie récupération des données de la victime, création de l’ECG, et analyse de celui-ci.
 
 Compte tenu du manque d’informations que nous avons pu trouver sur ce sujet, nous avons analysé les composants en ouvrant les DAE prêtés par l’entreprise Défibril puis nous avons décidé de faire une modélisation de ce même DAE.
 
